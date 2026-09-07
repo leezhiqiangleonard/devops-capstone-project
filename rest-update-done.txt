@@ -1,3 +1,7 @@
+(venv) theia:project$ curl -i -X PUT http://127.0.0.1:5000/accounts/1 \
+> -H "Content-Type: application/json" \
+> -d '{"name":"John Doe","email":"john@doe.com","address":"123 Main St.","phone_number":"555-1111"}'
+
 HTTP/1.1 200 OK
 Server: gunicorn
 Date: Mon, 07 Sep 2026 09:25:14 GMT
